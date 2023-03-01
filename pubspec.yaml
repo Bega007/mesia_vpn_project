@@ -1,0 +1,77 @@
+name: mesia_vpn_project
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-218.1.beta <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - lib/assets/images/
+    - lib/assets/fonts/plus_jakarta_sans/
+    - lib/assets/icons/
+
+
+
+
+
+
+
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-ExtraLight.ttf
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-ExtraLightItalic.ttf
+          weight: 200
+
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-Light.ttf
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-LightItalic.ttf
+          weight: 300
+
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-Regular.ttf
+          weight: 400
+
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-Italic.ttf
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-MediumItalic.ttf
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-Medium.ttf
+          weight: 500
+
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-SemiBold.ttf
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-SemiBoldItalic.ttf
+          weight: 600
+
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-Bold.ttf
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-BoldItalic.ttf
+          weight: 700
+
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-ExtraBold.ttf
+        - asset: lib/assets/fonts/plus_jakarta_sans/PlusJakartaSans-ExtraBoldItalic.ttf
+          weight: 800
